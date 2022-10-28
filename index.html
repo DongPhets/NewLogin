@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style1.css" />
+  </head>
+
+  <body>
+    <div class="container" id="container">
+      <div class="popup" id="popup">
+        <img src="image/check.png" alt="" />
+        <h1 class="congrats">CONGRATULATION!</h1>
+        <h2 class="congrats1">You Have Successfully Login</h2>
+        <button class="button1" id="button">OK</button>
+      </div>
+      <div class="popup1" id="popup1">
+        <img src="image/wrong.png" alt="" />
+        <h1 class="congrats">Wrong</h1>
+        <h2 class="congrats1">Username or Password</h2>
+        <button class="button1" onclick="closeValidation()">OK</button>
+      </div>
+      <div class="login-container" id="login-container">
+        <form action="#" id="loginForm">
+          <h1>LOGIN</h1>
+          <input type="text" placeholder="Username" name="user" id="user" />
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            id="password"
+          />
+          <button id="login">LOGIN</button>
+        </form>
+        <div class="link">
+          <a href="#">Forgot password?</a>
+        </div>
+
+        <div class="social-container">
+          <a href="https://facebook.com" target="_blank" class="social1"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://twiter.com" target="_blank" class="social2"
+            ><i class="fab fa-google-plus-g"></i
+          ></a>
+          <a href="https://gmail.com" target="_blank" class="social3"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
+      <div class="overlay">
+        <div class="pic">
+          <img class="pic" src="image/keqing1.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/java.js"></script>
+  </body>
+</html>
