@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    background-image: url('../image/bg2.jpg');
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-size: cover;
+}
+.popup img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup{
+    width: 300px;
+    height: 125px;
+    background: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: greenyellow;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 5px 20px;
+    visibility: hidden;
+    transition: transform 0.4s;
+}
+
+.popup1{
+    width: 300px;
+    height: 125px;
+    background: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(255, 107, 107);
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 5px 20px;
+    visibility: hidden;
+    transition: transform 0.4s;
+}
+
+.popup .congrats{
+    margin-top: 0;
+    margin-bottom: 1px;
+    font-size: 20px;
+}
+.popup .congrats1{
+    font-family: "Arial";
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.popup1 .congrats{
+    margin-top: 0;
+    margin-bottom: 1px;
+    font-size: 20px;
+}
+.popup1 .congrats1{
+    font-family: "Arial";
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+
+.open-popup{
+    visibility: visible;
+    top: 40%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.open-popup1{
+    visibility: visible;
+    top: 40%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+.button1{
+    margin-top: 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+form{
+    height: 10px;
+    width: 250px;
+    padding: 0 20px;
+    flex-direction: column;    
+    align-items: center;
+    text-align: center;
+    
+    }
+h1{
+    font-family: "Arial";
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: rgb(36, 5, 65);
+}
+
+.link{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.link a{
+    color: rgb(187, 0, 187);
+    text-decoration: none;
+    font-family: "Arial";
+}
+.link a:hover{
+    color: red;   
+}
+button{
+    color: white;
+    margin-top: 50px;
+    width: 225px;
+    height: 30px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    opacity: .9;
+    transition: opacity .3s ease;
+}
+
+button:hover{
+    opacity: 1;
+}
+.container{
+    background-color: #fff;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 600px;
+    height: 400px;
+    align-items: center;
+    margin-top: 100px;
+}
+.login-container{
+    height: 100%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+ 
+}
+
+input{
+        background-color: #eee;
+        border: none;
+        padding: 12px 15px;
+        margin: 8px 0;
+        width: 200px;   
+}
+
+.overlay{
+    display: flex;
+    background-color: black;
+    height: 100%;
+
+}
+
+.pic{
+    display: flex;
+    width: 500px;
+    overflow: hidden;
+}
+
+.social-container {
+	margin-top: 80px;
+    margin-left: 45px;
+}
+
+.social-container a {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+    height: 50px;
+    width: 50px;
+
+}
+
+.social1{
+    margin: 0;
+    background-image: url('../image/facebook.png');
+    height: 50px;
+	width: 50px;
+    border-radius: 50%;
+}
+.social2{
+    margin: 0;
+    background-image: url('../image/twitter.png');
+    height: 50px;
+	width: 50px;
+    border-radius: 50%;
+}
+
+.social3{
+    margin: 0;
+    background-image: url('../image/google.png');
+    height: 40px;
+	width: 40px;
+    border-radius: 50%;
+}
