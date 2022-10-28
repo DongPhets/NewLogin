@@ -5,7 +5,7 @@
 body{
     height: 100vh;
     display: flex;
-    background-image: url('../image/bg2.jpg');
+    background-image: url('./bg2.jpg');
     align-items: center;
     flex-direction: column;
     width: 100%;
@@ -202,14 +202,14 @@ input{
 
 .social1{
     margin: 0;
-    background-image: url('../image/facebook.png');
+    background-image: url('./facebook.png');
     height: 50px;
 	width: 50px;
     border-radius: 50%;
 }
 .social2{
     margin: 0;
-    background-image: url('../image/twitter.png');
+    background-image: url('./twitter.png');
     height: 50px;
 	width: 50px;
     border-radius: 50%;
@@ -217,7 +217,7 @@ input{
 
 .social3{
     margin: 0;
-    background-image: url('../image/google.png');
+    background-image: url('./google.png');
     height: 40px;
 	width: 40px;
     border-radius: 50%;
