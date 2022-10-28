@@ -62,7 +62,7 @@ html, body {
 
 
 .main-header{
-    background-image: url(../images/blue.jpg);
+    background-image: url(./blue.jpg);
     background-size: cover;
     padding-bottom: 30px;
 }
